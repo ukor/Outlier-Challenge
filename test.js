@@ -21,6 +21,7 @@ tape('should respond user-agent', (t) => {
     if (err) t.error(err)
 
     t.equal(body.ua, 'tape')
+    t.end()
   })
 })
 tape('should respond b64', (t) => {
